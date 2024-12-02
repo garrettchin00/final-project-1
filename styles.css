@@ -16,3 +16,157 @@
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%2387c25a' fill-opacity='0.5'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
+
+/* ---------- Link Styles ---------- */
+a{
+    display: block;
+    text-align: center;
+}
+
+/* ---------- Image Styles ---------- */
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* ---------- Body Styles ---------- */
+body{
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: var(--fonts);
+    margin: 0;
+}
+
+/* Text Styles */
+p{
+    display: grid;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+/* ---------- Nav Ul Styles --------- */
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    float: none;
+    justify-content: center;
+}
+
+/* ---------- Nav a Styles --------- */
+nav a{
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--black);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* ---------- Navigation a Hover Styles ---------- */
+nav a:hover{
+    border-color: var(--gray);
+    color: var(--green);
+}
+
+/* ---------- Header Styles ---------- */
+header{
+    padding: 1rem;
+    width: 968px;
+    margin: 0 auto;
+    background-color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+/* ----- HEADING STYLES ----- */
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.2rem;
+    text-align: left;
+}
+
+/* ---------- Navigation a Hover Styles ---------- */
+nav a:hover{
+    border-color: var(--red);
+    color: var(--red);
+}
+
+/* ---------- Main Styles ---------- */
+main{
+    width: 1000px;
+    padding: 2rem 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 8px;
+    margin-right: auto;
+    background-color: var(--red);
+}
+
+/* ---------- Main Section Styles ---------- */
+main > section{
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ---------- Main H2 Styles ---------- */
+main h2{
+    font-size: 1rem;
+    padding: 0;
+    width: fit-content;
+    margin: 0;
+    background-color: var(--gray);
+    color: var(--black);
+}
+
+/* ---------- Footer Styles ---------- */
+footer{
+    padding: 1rem;
+    width: 968px;
+    margin: 0 auto;
+    background-color: var(--white);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+footer h2{
+    margin: 0 auto;
+    font-size: 1.35rem;
+    line-height: 1;
+    grid-column: 1/-1;
+}
+
+footer section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem 1rem;
+    width: 520px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+footer a{
+    padding: 0.5rem;
+    color: var(--black);
+    text-underline-offset: 4px;
+    text-decoration-color: var(--lime);
+    text-decoration-thickness: 2px;
+}
+
+footer a:hover{
+    color: var(--red);
+}
+
+footer p{
+    margin: 0 auto;
+    font-size: 1rem;
+}
