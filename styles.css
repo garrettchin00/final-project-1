@@ -25,6 +25,7 @@ main{
     margin-bottom: 8px;
     margin-right: auto;
     background: var(--white);
+    border-bottom: 12px solid var(--white);
 }
 
 /* ---------- Main Section Styles ---------- */
@@ -40,8 +41,7 @@ main h2{
     font-size: 2rem;
     padding: 0;
     width: fit-content;
-    margin: 0;
-    background-color: var(--white);
+    text-align: center;
     color: var(--black);
 }
 
@@ -68,8 +68,8 @@ body{
 /* Text Styles */
 p{
     display: grid;
-    margin: 0 auto;
-    font-size: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
 }
 
 /* ---------- Nav Ul Styles --------- */
@@ -102,10 +102,11 @@ nav a:hover{
 /* ---------- Header Styles ---------- */
 header{
     padding: 1rem;
-    width: 968px;
+    width: 1280px;
     margin: 0 auto;
-    border-bottom: 8px solid var(--lime);
-    background-color: var(--gray);
+    border-top: 8px;
+    border-bottom: 8px;
+    background: url(images/swiss-valley.jpg);
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -118,18 +119,19 @@ h1{
 }
 
 h2{
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin: 0 auto;
 }
 
 /* ---------- Footer Styles ---------- */
 footer{
     padding: 1rem;
-    width: 968px;
+    width: 1280px;
     margin: 0 auto;
     background-color: var(--white);
     text-align: center;
     padding-top: 2rem;
+    display: block;
 }
 
 footer h2{
@@ -154,6 +156,7 @@ footer a{
     text-underline-offset: 4px;
     text-decoration-color: var(--lime);
     text-decoration-thickness: 2px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -165,4 +168,9 @@ footer p{
     text-align: center;
     font-size: 1rem;
     padding: 0.5rem 0;
+}
+
+address{
+    display: block;
+    unicode-bidi: isolate;
 }
