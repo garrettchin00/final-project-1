@@ -20,12 +20,10 @@
 /* ---- Main Styles ---- */
 main{
     width: 1280px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-bottom: 0;
-    margin-right: auto;
+    margin: 0 auto;
     background: var(--green);
     border-bottom: 12px solid var(--white);
+    display: flex;
 }
 
 /* ---------- Main Section Styles ---------- */
