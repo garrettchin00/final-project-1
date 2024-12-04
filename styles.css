@@ -81,7 +81,7 @@ nav ul{
     gap: 1rem;
     margin: 0 auto;
     float: none;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* ---------- Nav a Styles --------- */
@@ -157,12 +157,11 @@ footer a{
     text-underline-offset: 4px;
     text-decoration-color: var(--lime);
     text-decoration-thickness: 2px;
-    text-align: center;
     margin: 0 auto;
 }
 
 footer a:hover{
-    color: var(--red);
+    color: var(--lime);
 }
 
 footer p{
@@ -173,5 +172,9 @@ footer p{
 
 address{
     display: block;
-    unicode-bidi: isolate;
+}
+
+#contact p{
+    text-align: center;
+    font-size: 1.2rem;
 }
