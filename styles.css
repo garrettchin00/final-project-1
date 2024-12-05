@@ -179,6 +179,10 @@ address{
     flex-wrap: wrap;
 }
 
+#about h2{
+    margin: 0 auto;
+}
+
 #about p{
     text-align: left;
 }
@@ -186,9 +190,10 @@ address{
 #accommodations div{
     display: flex;
     flex-wrap: wrap;
+    align-items: left;
 }
 
-accommodations p{
+#accommodations p{
     text-align: left;
 }
 
