@@ -69,7 +69,7 @@ body{
 /* Text Styles */
 p{
     display: grid;
-    text-align: left;
+    text-align: center;
     font-size: 1.2rem;
 }
 
@@ -178,7 +178,7 @@ address{
 }
 
 #about p{
-    text-align: left;
+    text-align: center;
 }
 
 #accommodations div{
@@ -188,7 +188,7 @@ address{
 }
 
 #accommodations p{
-    text-align: left;
+    text-align: center;
 }
 
 #contact p{
