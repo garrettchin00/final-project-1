@@ -20,10 +20,12 @@
 /* ---- Main Styles ---- */
 main{
     width: 1280px;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
     background: var(--green);
     border-bottom: 12px solid var(--white);
-    display: flex;
 }
 
 /* ---------- Main Section Styles ---------- */
@@ -170,6 +172,24 @@ footer p{
 
 address{
     display: block;
+}
+
+#about div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about p{
+    text-align: left;
+}
+
+#accommodations div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+accommodations p{
+    text-align: left;
 }
 
 #contact p{
